@@ -20,7 +20,7 @@ print('The local launch date is: ' + response['launch_date_local'])
 print('The rocket name is: ' + response['rocket']['rocket_name'])
 
 # tell the user, "PRESS ENTER TO ACCESS"
-video_link = input('PRESS ENTER TO ACCESS A VIDEO LINK')
+video_link = input('\nPRESS ENTER TO ACCESS A VIDEO LINK')
 
 # open a link in browser webbrowser.open()
 webbrowser.open(response['links']['video_link'])
